@@ -15,3 +15,4 @@ class VisitanteSerializers(serializers.ModelSerializer):
     class Meta:
         model = Visitante
         fields = '__all__'
+#teste
