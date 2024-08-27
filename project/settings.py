@@ -156,3 +156,5 @@ CORS_ALLOW_HEADERS = [
     'content-type',
     'authorization',
 ]
+
+CORS_ALLOW_CREDENTIALS = True
