@@ -158,3 +158,9 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
+
+REST_FRAMEWORK = {
+  "DEFAULT_PERMISSION_CLASSES":[
+    "rest_framework.permissions.IsAdminUser",
+],
+}
